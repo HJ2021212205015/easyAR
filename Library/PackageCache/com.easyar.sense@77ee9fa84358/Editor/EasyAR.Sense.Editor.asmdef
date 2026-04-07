@@ -1,0 +1,75 @@
+{
+	"name": "EasyAR.Sense.Editor",
+	"references": [
+		"EasyAR.Sense",
+		"Unity.XR.CoreUtils",
+		"Unity.XR.Management",
+		"Unity.XR.Management.Editor",
+		"Unity.XR.ARCore",
+		"EasyAR.Mega.Scene",
+		"Unity.RenderPipelines.Core.Runtime",
+		"Unity.RenderPipelines.Universal.Runtime"
+	],
+	"includePlatforms": [
+		"Editor"
+	],
+	"excludePlatforms": [],
+	"allowUnsafeCode": false,
+	"overrideReferences": false,
+	"precompiledReferences": [],
+	"autoReferenced": true,
+	"defineConstraints": [],
+	"versionDefines": [
+		{
+			"name": "com.easyar.mega",
+			"expression": "",
+			"define": "EASYAR_ENABLE_MEGA"
+		},
+		{
+			"name": "com.easyar.sense.binding",
+			"expression": "",
+			"define": "EASYAR_USE_SEPERATE_BINDING"
+		},
+		{
+			"name": "com.unity.xr.arfoundation",
+			"expression": "5.0.0",
+			"define": "EASYAR_ENABLE_ARFOUNDATION"
+		},
+		{
+			"name": "com.unity.xr.arcore",
+			"expression": "[2.1.0,2.2.0)",
+			"define": "EASYAR_ENABLE_UNITYARCORE"
+		},
+		{
+			"name": "com.unity.xr.arcore",
+			"expression": "3.0.0",
+			"define": "EASYAR_ENABLE_UNITYARCORE"
+		},
+		{
+			"name": "com.unity.xr.management",
+			"expression": "3.0.0",
+			"define": "EASYAR_ENABLE_XRMANAGEMENT"
+		},
+		{
+			"name": "com.unity.xr.management",
+			"expression": "[3.0.0,4.0.0)",
+			"define": "EASYAR_ENABLE_XRMANAGEMENT_3"
+		},
+		{
+			"name": "com.unity.xr.core-utils",
+			"expression": "2.0.0",
+			"define": "EASYAR_ENABLE_XRORIGIN"
+		},
+		{
+			"name": "com.xreal.xr",
+			"expression": "3.1.0",
+			"define": "EASYAR_ENABLE_XREAL"
+		},
+		{
+			"name": "com.xreal.xr",
+			"expression": "[0,3.1.0)",
+			"define": "EASYAR_XREAL_NOTSUPPORT"
+		}
+	],
+	"noEngineReferences": false
+}

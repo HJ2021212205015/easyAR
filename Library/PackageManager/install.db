@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.easyar.sense": {
+      "tarball": {
+        "hash": "77ee9fa84358",
+        "mtime": 1772595399607,
+        "size": 386231592,
+        "localPath": "D:\\Unity_Store\\ezAR\\Packages\\com.easyar.sense-4001.0.0+4903.88c5ea80f.tgz"
+      }
+    }
+  }
+}

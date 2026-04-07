@@ -1,0 +1,193 @@
+{
+  "name": "com.easyar.sense",
+  "displayName": "EasyAR Sense Unity Plugin",
+  "version": "4001.0.0+4903.88c5ea80f",
+  "unity": "2021.3",
+  "description": "EasyAR Sense Unity Plugin. \r\nEasyAR Sense Unity Plugin is a very thin wrapper build above EasyAR Sense C# API to expose EasyAR Sense features into Unity. \r\nPlease read the documents on [EasyAR website](https://www.easyar.com) for how to use.",
+  "keywords": [
+    "easyar",
+    "augmented",
+    "reality",
+    "sdk",
+    "ar",
+    "cloud",
+    "spatial",
+    "map",
+    "xr"
+  ],
+  "author": {
+    "name": "VisionStar Information Technology (Shanghai) Co., Ltd.",
+    "email": "support@easyar.com",
+    "url": "https://www.easyar.com"
+  },
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "**All Samples**",
+      "description": "",
+      "path": "Samples~"
+    },
+    {
+      "displayName": "AllSamplesLauncher",
+      "description": "",
+      "path": "Samples~/AllSamplesLauncher"
+    },
+    {
+      "displayName": "Workflow_ARSession",
+      "description": "",
+      "path": "Samples~/Workflow/Workflow_ARSession"
+    },
+    {
+      "displayName": "Workflow_FrameSource_CameraDevice",
+      "description": "",
+      "path": "Samples~/Workflow/Workflow_FrameSource_CameraDevice"
+    },
+    {
+      "displayName": "Workflow_FrameSource_ExternalImageStream",
+      "description": "",
+      "path": "Samples~/Workflow/Workflow_FrameSource_ExternalImageStream"
+    },
+    {
+      "displayName": "Combination_BasedOn_AppleVisionPro",
+      "description": "",
+      "path": "Samples~/HeadMountedDisplay/Combination_BasedOn_AppleVisionPro"
+    },
+    {
+      "displayName": "Combination_BasedOn_Xreal",
+      "description": "",
+      "path": "Samples~/HeadMountedDisplay/Combination_BasedOn_Xreal"
+    },
+    {
+      "displayName": "MegaBlock_Basic",
+      "description": "",
+      "path": "Samples~/Mega/MegaBlock_Basic"
+    },
+    {
+      "displayName": "MegaBlock_Ema",
+      "description": "",
+      "path": "Samples~/Mega/MegaBlock_Ema"
+    },
+    {
+      "displayName": "MegaLandmark_Basic",
+      "description": "",
+      "path": "Samples~/Mega/MegaLandmark_Basic"
+    },
+    {
+      "displayName": "SpatialMap_Sparse_AllInOne",
+      "description": "",
+      "path": "Samples~/SpatialMap/SpatialMap_Sparse_AllInOne"
+    },
+    {
+      "displayName": "SpatialMap_Dense_BallGame",
+      "description": "",
+      "path": "Samples~/SpatialMap/SpatialMap_Dense_BallGame"
+    },
+    {
+      "displayName": "SpatialMap_Sparse_Building",
+      "description": "",
+      "path": "Samples~/SpatialMap/SpatialMap_Sparse_Building"
+    },
+    {
+      "displayName": "SpatialMap_Sparse_Localizing",
+      "description": "",
+      "path": "Samples~/SpatialMap/SpatialMap_Sparse_Localizing"
+    },
+    {
+      "displayName": "MotionTracking_DeviceMotionAndPlaneDetection",
+      "description": "",
+      "path": "Samples~/MotionTracking/MotionTracking_DeviceMotionAndPlaneDetection"
+    },
+    {
+      "displayName": "SurfaceTracking",
+      "description": "",
+      "path": "Samples~/SurfaceTracking/SurfaceTracking"
+    },
+    {
+      "displayName": "ImageTracking_Targets",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_Targets"
+    },
+    {
+      "displayName": "ImageTracking_MotionFusion",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_MotionFusion"
+    },
+    {
+      "displayName": "ImageTracking_CloudRecognition",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_CloudRecognition"
+    },
+    {
+      "displayName": "ImageTracking_Video",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_Video"
+    },
+    {
+      "displayName": "ImageTracking_TargetOnTheFly",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_TargetOnTheFly"
+    },
+    {
+      "displayName": "ImageTracking_Coloring3D",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_Coloring3D"
+    },
+    {
+      "displayName": "ImageTracking_MultiTarget_SingleTracker",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_MultiTarget_SingleTracker"
+    },
+    {
+      "displayName": "ImageTracking_MultiTarget_MultiTracker",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_MultiTarget_MultiTracker"
+    },
+    {
+      "displayName": "ImageTracking_MultiTarget_SameImage",
+      "description": "",
+      "path": "Samples~/ImageTracking/ImageTracking_MultiTarget_SameImage"
+    },
+    {
+      "displayName": "ObjectTracking",
+      "description": "",
+      "path": "Samples~/ObjectTracking/ObjectTracking"
+    },
+    {
+      "displayName": "Combination_BasedOn_MotionTracking",
+      "description": "",
+      "path": "Samples~/Combination/Combination_BasedOn_MotionTracking"
+    },
+    {
+      "displayName": "Combination_SpatialMap_Sparse_Dense",
+      "description": "",
+      "path": "Samples~/Combination/Combination_SpatialMap_Sparse_Dense"
+    },
+    {
+      "displayName": "Combination_SpatialMap_ImageTracking",
+      "description": "",
+      "path": "Samples~/Combination/Combination_SpatialMap_ImageTracking"
+    },
+    {
+      "displayName": "Combination_ObjectTracking_ImageTracking",
+      "description": "",
+      "path": "Samples~/Combination/Combination_ObjectTracking_ImageTracking"
+    },
+    {
+      "displayName": "VideoRecording",
+      "description": "",
+      "path": "Samples~/VideoRecording/VideoRecording"
+    },
+    {
+      "displayName": "StreamingAssets ImageTargets",
+      "description": "",
+      "path": "Samples~/StreamingAssets/ImageTargets"
+    },
+    {
+      "displayName": "StreamingAssets ObjectTargets",
+      "description": "",
+      "path": "Samples~/StreamingAssets/ObjectTargets"
+    }
+  ]
+}

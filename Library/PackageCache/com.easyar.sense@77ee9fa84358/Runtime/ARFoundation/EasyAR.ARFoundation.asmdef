@@ -1,0 +1,29 @@
+{
+    "name": "EasyAR.ARFoundation",
+    "references": [
+        "Unity.XR.CoreUtils",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems",
+        "Unity.XR.Management"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "5.0.0",
+            "define": "EASYAR_ENABLE_ARFOUNDATION"
+        },
+        {
+            "name": "com.unity.xr.arfoundation",
+            "expression": "[0,5.0.0)",
+            "define": "EASYAR_ARFOUNDATION_NOTSUPPORT"
+        }
+    ],
+    "noEngineReferences": false
+}
