@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 247633033}
   - component: {fileID: 247633032}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: ARContentRoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,7 +149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247633030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.306}
+  m_LocalPosition: {x: 0, y: 0.03, z: 0}
   m_LocalScale: {x: 0.25795215, y: 0.25795215, z: -0.29566476}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 454203545}
   - component: {fileID: 454203544}
   - component: {fileID: 454203543}
+  - component: {fileID: 454203546}
   m_Layer: 0
   m_Name: Image Target
   m_TagString: Untagged
@@ -349,6 +350,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasOverrideStrategy: 0
   overrideStrategy: 0
+--- !u!114 &454203546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454203542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55b8c4448964fdb83a2f18c4d9f8d31, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  contentRoot: {fileID: 247633031}
+  localOffset: {x: 0, y: 0.03, z: 0}
+  hideContentWhenTrackingLost: 1
 --- !u!4 &454203545
 Transform:
   m_ObjectHideFlags: 0
@@ -720,11 +736,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075414178}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cd446bac58afcf249bca4e5c56001cbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   DeveloperModeSwitch: 0
   MessageOutput:
     SessionDump: 0
