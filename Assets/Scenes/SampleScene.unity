@@ -131,9 +131,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 247633031}
-  - component: {fileID: 247633034}
-  - component: {fileID: 247633033}
+  - component: {fileID: 247633035}
+  - component: {fileID: 247633036}
+  - component: {fileID: 247633037}
   - component: {fileID: 247633032}
+  - component: {fileID: 247633033}
+  - component: {fileID: 247633034}
+  - component: {fileID: 247633038}
   m_Layer: 0
   m_Name: ARContentRoot
   m_TagString: Untagged
@@ -149,13 +153,97 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247633030}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.03, z: 0}
-  m_LocalScale: {x: 0.25795215, y: 0.25795215, z: -0.29566476}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 454203545}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &247633035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247633030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  contentRoot: {fileID: 0}
+  defaultMaterial: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &247633036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247633030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  modelLoader: {fileID: 247633035}
+--- !u!114 &247633037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247633030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  gridSize: 0.01
+  gridExtent: 50
+  gridHeightOffset: 0
+  gridMaterial: {fileID: 0}
+  pointAPrefab: {fileID: 0}
+  pointBPrefab: {fileID: 0}
+  pointAColor: {r: 1, g: 0, b: 0, a: 1}
+  pointBColor: {r: 0, g: 0, b: 1, a: 1}
+--- !u!114 &247633038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247633030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec3056a8e482d246a7db520d5dc99ec, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  targetTransform: {fileID: 0}
+  transformController: {fileID: 247633036}
+  arCamera: {fileID: 0}
+  moveSpeed: 0.01
+  rotateSpeed: 2
+  scaleSpeed: 0.1
+  minScale: 0.01
+  maxScale: 10
+  enableInteraction: 1
+  selectableLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  highlightColor: {r: 0, g: 0.8, b: 1, a: 1}
+  highlightIntensity: 1.5
+  highlightOnSelect: 1
+  resetKey: 114
+  yMoveModifier: 304
+  rotateSpeed: 2
+  scaleSpeed: 0.5
+  enableInteraction: 1
+  resetKey: 114
+  yMoveModifier: 304
+  showCursorFeedback: 1
+  moveCursor: {fileID: 0}
+  rotateCursor: {fileID: 0}
 --- !u!65 &247633032
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -333,7 +421,7 @@ MonoBehaviour:
   Texture2DSource:
     Texture: {fileID: 2800000, guid: 73d67b919ce61e643a782add0345fb62, type: 3}
     Name: GGB(1)
-    Scale: 0.1
+    Scale: 0.5
   trackerHasSet: 1
   tracker: {fileID: 1983284806}
 --- !u!114 &454203544
@@ -363,7 +451,7 @@ MonoBehaviour:
   m_Name:
   m_EditorClassIdentifier:
   contentRoot: {fileID: 247633031}
-  localOffset: {x: 0, y: 0.03, z: 0}
+  localOffset: {x: 0, y: 0.01, z: 0}
   hideContentWhenTrackingLost: 1
 --- !u!4 &454203545
 Transform:
